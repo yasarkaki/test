@@ -85,3 +85,38 @@ int fibonacciRecursive(int number){
     }
     return fibonacciRecursive(number -1 ) + fibonacciRecursive(number -2 );
 }
+
+
+
+// int main() {
+//     int number = 5, result = 1;
+
+//     for (int i = 1; i <= number; i++) {
+//         result *= i;
+//     }
+
+//     printf("Factorial of %d is %d\n", number, result);
+//     return 0;
+// }
+
+
+
+// int main() {
+//     int number = 4;
+
+//     if (number % 2 == 0) {
+//         printf("%d is even\n", number);
+//     } else {
+//         printf("%d is odd\n", number);
+//     }
+
+//     return 0;
+// }
+
+// int main() {
+//     for (int i = 1; i <= 5; i++) {
+//         printf("%d ", i);
+//     }
+//     printf("\n");
+//     return 0;
+// }
